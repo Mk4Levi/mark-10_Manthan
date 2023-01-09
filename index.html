@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mark10 - Cash Register Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div>
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+          Enter the bill amount and cash given by the customer and know minimum
+          number of notes to return.
+        </p>
+        <label class="input-label" for="bill-amount">Bill Amount:</label>
+        <input class="input" id="bill-amount" type="text" />
+        <!-- <button id="">Next</button> -->
+        <label class="input-label" for="cash-given">Cash Given:</label>
+        <input class="input" id="cash-given" type="text" />
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <table class="change-table">
+          <caption>
+            Return Change
+          </caption>
+          <tr>
+            <th>No of Notes</th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>© | 2021 | adarshbalika</p>
+      <ul class="footer-list">
+        <li>
+          <a class="links" href="https://github.com/neogcamp/" target="_blank">
+            <img src="images/github.svg" alt="github" />
+          </a>
+        </li>
+        <li>
+          <a class="links" href="https://bit.ly/tanaydiscord" target="_blank">
+            <img src="images/discord.svg" alt="discord" />
+          </a>
+        </li>
+        <li>
+          <a class="links" href="https://twitter.com/neogcamp" target="_blank">
+            <img src="images/twitter.svg" alt="twitter" />
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://www.instagram.com/neogcamp"
+            target="_blank"
+          >
+            <img src="images/instagram.svg" alt="instagram" />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
