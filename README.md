@@ -1,3 +1,3 @@
 # mark-10-Manthan
-# cash-register-manager
+# Cash register manager app by Manthan 
 
